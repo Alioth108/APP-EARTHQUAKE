@@ -64,7 +64,6 @@ df = pd.read_csv("data_COMPLET_clean_feature_engineering.csv",sep=";")
 df.drop(columns=["Unnamed: 0"],inplace=True)
 
 
-
 # Sélectionner la variable cible
 y = df["Count"].values
 
@@ -91,11 +90,8 @@ X_train = X_train.reshape((X_train.shape[0], window_size, 1))
 X_test = X_test.reshape((X_test.shape[0], window_size, 1))
 
 
-#Importer le modèle avec les meilleurs performances
-from tensorflow.keras.models import load_model
-
 # Charger le modèle
-loaded_model = load_model("LSTM.h5")
+loaded_model = load_model("LSTM.h5", compile=False)
 
 
 # Calculer les prédictions du modèle sur l'ensemble de test
