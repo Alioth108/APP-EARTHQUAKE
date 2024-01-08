@@ -1,15 +1,5 @@
-pip
-streamlit==1.11.0
-pillow
-pandas
-plotly
-nltk
-matplotlib
-seaborn
-wordcloud
-CleanText
-scikit-learn
-openpyxl
+matplotlib==3.3.2
+streamlit==0.70.0
 numpy==1.18.5
 Keras==2.4.3
 tensorboard==2.3.0
