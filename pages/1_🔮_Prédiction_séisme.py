@@ -90,9 +90,9 @@ X_train = X_train.reshape((X_train.shape[0], window_size, 1))
 X_test = X_test.reshape((X_test.shape[0], window_size, 1))
 
 
-import tensorflow as tf
+from keras.models import load_model
 # Charger le modèle
-loaded_model =  tf.keras.models.load_model("LSTM.h5", compile=False)
+loaded_model =  load_model("LSTM.h5")
 
 
 # Calculer les prédictions du modèle sur l'ensemble de test
