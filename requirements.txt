@@ -13,3 +13,4 @@ scikit-learn
 openpyxl
 tensorflow==2.6.0
 keras
+protobuf
