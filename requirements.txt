@@ -1,6 +1,6 @@
+streamlit
 protobuf==3.12.2
 matplotlib==3.3.2
-streamlit==0.70.0
 numpy==1.18.5
 keras==2.1.5
 tensorflow==1.6.0
