@@ -62,6 +62,8 @@ from sklearn.preprocessing import MinMaxScaler
 
 df = pd.read_csv("data_COMPLET_clean_feature_engineering.csv")
 
+st.dataframe(df)
+
 # Sélectionner la variable cible
 y = df["Count"].values
 
