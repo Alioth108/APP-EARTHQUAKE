@@ -60,9 +60,10 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
-df = pd.read_csv("data_COMPLET_clean_feature_engineering.csv")
+df = pd.read_csv("data_COMPLET_clean_feature_engineering.csv",sep=";")
+df.drop(columns=["Unnamed: 0"],inplace=True)
 
-st.dataframe(df)
+
 
 # Sélectionner la variable cible
 y = df["Count"].values
