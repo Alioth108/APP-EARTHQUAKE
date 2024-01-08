@@ -1,9 +1,7 @@
 pip
-tf_agents
 streamlit==1.11.0
 pillow
 pandas
-numpy
 plotly
 nltk
 matplotlib
@@ -12,6 +10,10 @@ wordcloud
 CleanText
 scikit-learn
 openpyxl
-tensorflow==2.10.0
-tensorboard==2.10.1
-keras==2.10.0
+numpy==1.18.5
+Keras==2.4.3
+tensorboard==2.3.0
+tensorboard-plugin-wit==1.7.0
+tensorflow==2.3.1
+tensorflow-estimator==2.3.0
+scipy==1.5.3
