@@ -11,6 +11,6 @@ wordcloud
 CleanText
 scikit-learn
 openpyxl
-tensorflow==2.6.0
+tensorflow==1.2.0
 keras
 protobuf
