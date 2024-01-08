@@ -9,7 +9,6 @@ Created on Tue Apr 18 20:47:08 2023
 # %%----------IMPORT DES PACKAGES----------
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 #%% -------------Structure de la page---------------
 st.set_page_config(
         page_title="Earthquake App",
