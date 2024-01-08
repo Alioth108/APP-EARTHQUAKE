@@ -1,5 +1,5 @@
 pip
-streamlit==1.22.0
+streamlit==1.24.0
 numpy==1.24.3
 pandas==2.0.1
 matplotlib
