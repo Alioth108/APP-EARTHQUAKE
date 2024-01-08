@@ -1,6 +1,6 @@
 pip
 tf_agents
-streamlit==0.65.2
+streamlit==1.11.0
 pillow
 pandas
 numpy
@@ -12,5 +12,6 @@ wordcloud
 CleanText
 scikit-learn
 openpyxl
-tensorflow-cpu==1.15
-keras==2.3.0
+tensorflow==2.10.0
+tensorboard==2.10.1
+keras==2.10.0
